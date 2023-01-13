@@ -5,11 +5,11 @@ import android.os.Bundle
 import com.example.contacts.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    lateinit var main_binding : ActivityMainBinding
+    lateinit var _binding : ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        main_binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(main_binding.root)
+        _binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(_binding.root)
 
     }
 }

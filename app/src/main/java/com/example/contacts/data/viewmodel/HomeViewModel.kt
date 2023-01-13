@@ -11,7 +11,6 @@ class HomeViewModel(protected val repository: ContactsRepository) : ViewModel() 
 
 
 
-
     fun addContact(contact: contacts) {
          repository.addContact(contact)
     }
